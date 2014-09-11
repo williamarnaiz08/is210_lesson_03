@@ -371,18 +371,18 @@ operator can make for a powerful decision-making engine.
 
 #.  Consider the following compound interest equation:
 
-    .. math::
+        A=P(1+ r/n)^(nt)
 
-        A=P(1+\frac{r}{n})^{nt}
+    **P** = principal amount (the initial amount you borrow or deposit)
+    
+    **r** = annual rate of interest (as a decimal)
+    
+    **t** = number of years the amount is deposited or borrowed for.
+    
+    **A** = amount of money accumulated after n years, including interest.
+    
+    **n** = number of times the interest is compounded per year 
 
-        \text{Where}\\
-        &A \text{ is the total amount accumulated, with interest, over the
-        duration of the loan}\\
-        &P \text{ is the principal amount (the initial amount borrowed)}\\
-        &r \text{ is the annual rate of interest represented as a decimal}\\
-        &n \text{ is the number of times the interest is compounded each
-        year}\\
-        &t \text{ is the number of years for which } P \text{ is borrowed}\\
 
 #.  Use this equation and the table below to create a program that calculates
     the total amount owed over the life of a loan. Use ``raw_input()`` to
